@@ -23,6 +23,8 @@ public class WhyOptional {
 
     }
 
+
+
     public static Optional<Student> getStudentWithName(String name) {
         // lets suppose that our database contain only 2 students ahmed and hamza .
         if (name.equals("hamza") || name.equals("ahmed")) {
