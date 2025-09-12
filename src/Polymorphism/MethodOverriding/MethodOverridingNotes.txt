@@ -1,0 +1,51 @@
+What is Method Overriding?
+Writing method in child class with same name and parameters which is present in Parent class.
+
+Why we need Method Overriding?
+When you want to change the implementation provided in Parent class.
+
+What is Covariant return types?
+we can use actual object type or its subtype whenever required
+
+a method can return a primitive data type or an object from the method.
+
+private  => default => protected => public
+
+Rules for method overriding:
+1) In java, a method can only be Overridden in Subclass, not in same class.
+(It should be parent child relationship.)
+2) The argument list/method signature must be exactly the same as that of the overridden/parent class method.
+
+3) The return type should be the same or a subtype of the return type declared in the
+original overridden method in the super class.
+	Covariant return types. -> Object
+3) Return type must be same for both parent and child class methods.   -> Primitive data types
+
+4) The access level cannot be more restrictive than the parent class method’s access level.
+For example: if the super class method is declared public,
+ then the over-ridding method in the subclass cannot be either private or default or protected.
+
+5) A method declared final cannot be overridden.
+6) A method declared static cannot be overridden but can be re-declared.
+
+7) If a method cannot be inherited then it cannot be overridden. Ex: private methods in super class.
+8) A subclass within the same package as the instance’s superclass can override
+any superclass method that is not declared private or final or static.
+
+9) A subclass in a different package can only override the non-final methods declared public or protected.
+10) Constructors cannot be overridden.
+
+11) An overriding method can throw any unchecked exceptions, regardless of whether the overridden method throws exceptions or not.
+However, the overriding method should not throw checked exceptions that are new or broader than the ones declared by the overridden method. The overriding method can throw narrower or fewer exceptions than the overridden method.
+
+12) An overriding method can throw any uncheck exceptions, regardless of whether the overridden method throws exceptions or not.
+
+However, the overriding method should not throw checked exceptions that are new or broader than the ones declared by the overridden method. The overriding method can throw narrower or fewer exceptions than the overridden method.
+
+Wedding Card  => Name  Father/mother  => children
+
+Whenever we required object of Parent class, we can send Object of child class.
+
+Parent class  parent methods overridden in child class
+Child class   added extra method in child
+

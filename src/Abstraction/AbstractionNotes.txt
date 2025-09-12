@@ -1,0 +1,41 @@
+What is Abstraction in Java?
+=> It is a process in which we show what is essential and hide implementation details.
+=> Hiding details and showing essential info.
+=>
+
+Why we need Abstraction in Java?
+=> Hide complexity of the system from User.
+=>
+
+How can we achieve Abstraction in Java?
+1) abstract class  (incomplete class)
+2) interface
+
+
+We use abstract keyword to create an abstract class
+abstract is non access modifier in Java
+
+We create an abstract class with abstract methods
+then we extends this class by non-abstract class and
+provide  implementation to the abstract methods.
+
+abstraction tells us WHAT to do, but it let the child class decide HOW to do it
+
+abstract methods
+1) abstract keyword
+2) no method body(no curly brackets)
+
+
+Abstract class rules:
+
+1) It's not mandatory to have abstract method in abstract class.
+
+2) If we define any abstract method in a class, then that class must be an abstract class.
+
+3) We can not create an object of abstract class.
+
+4) If one abstract class extends another abstract class,
+then it's not mandatory for that child class to provide method implementations of abstract methods of super class.
+
+5) If concrete/non-abstract class extends  abstract class,
+then its  mandatory for that child class to provide method implementations of abstract methods of super class.

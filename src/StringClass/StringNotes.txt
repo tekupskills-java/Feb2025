@@ -1,0 +1,81 @@
+What is String class in Java?
+String is nothing but sequence of chars.
+
+
+In how many different ways we can create String class Objects?
+1) Using new keyword
+2) Using String literals
+
+Mutable version of String class => StringBuilder and StringBuffer
+
+Why String class is considered as most commonly used class in Java?
+
+
+What is Immutability?
+Once we create an Object of a String class, we can not modify the object.
+If you try to modify that Object, we will get a new Object and original Object will remain as it is.
+
+
+What is Mutable?
+We can modify an existing Object.
+
+
+Heap   => String Constant Pool
+
+
+
+Immutability vs Final?
+
+
+class Aadhar {
+
+    String name;
+    String address;
+    long aadharNumber;
+    int age;
+    long mobileNumber;
+
+}
+
+
+Aadhar Akash = new Aadhar();
+
+String is Immutable class => Java
+Can we create a custom Immutable class in Java?
+Yes, we can create.
+
+How to create a Custom Immutable class in Java?
+
+
+
+Immutable => Custom Immutable class
+
+1) Make the class final
+2) Make fields final and private
+3) Only provide getter methods
+4)
+
+
+ public StringBuilder append(String str) {
+         super.append(str);
+         return this;
+     }
+
+ synchronized StringBuffer append(AbstractStringBuilder asb) {
+         toStringCache = null;
+         super.append(asb);
+         return this;
+ }
+
+
+
+ Threading   =>   Executor  1000 threads  => starving
+ Array       =>   Collection
+
+
+
+ StringBuilder  => Data inconsistency
+
+ 1000000   => SQL to fetch all records    0.5 m seconds
+
+ Executor  => SQL  StringBuffer  => data consistent

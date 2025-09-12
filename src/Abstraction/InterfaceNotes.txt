@@ -1,0 +1,27 @@
+
+to create an interface we use keyword interface.
+
+we use interface to achieve 100% abstraction
+
+by default methods in interface are abstract
+variables in interface are always  public static final
+we can not create an object of an interface
+
+A) 1 class extends another class
+B) 1 class can implements 1 or more interfaces
+C) 1 interface can extends 1 or more another interfaces
+
+If one abstract class implements one or more interfaces,
+then it's not mandatory for that child class to provide method implementations of abstract methods of interface.
+
+If concrete/non-abstract class implements one or more interfaces,
+then its  mandatory for that child class to provide method implementations of abstract methods of interface.
+
+
+class ClassName {
+
+}
+
+interface InterfaceName {
+
+}

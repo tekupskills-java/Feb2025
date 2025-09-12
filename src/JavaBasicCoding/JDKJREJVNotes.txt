@@ -1,0 +1,36 @@
+JDK => Java Development Kit
+
+
+
+JRE => Java Runtime Env
+
+
+
+JVM  => Java Virtual Machine
+
+
+
+compilation => interpretation
+
+Compiler =>
+is part of JDK.
+javac ClassName.java we converts this file into ClassName.class
+
+During compilation process we convert source code into byte code
+
+
+Interpreter
+Is part of JVM.
+
+Converts byte code into machine code
+
+machine => binary or machine code
+0101011
+
+
+platform(Operating System) independence
+WORA   => Write Once Run Anywhere
+
+Compiler Interpreter
+
+ClassLoaders

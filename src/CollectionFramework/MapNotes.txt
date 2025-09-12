@@ -1,0 +1,67 @@
+Map interface is not part of Collection hierarchy
+
+Collection<E>
+
+Map<K,V> =>When we want to store data in  Key and Value Pair we use Map
+
+Map does not maintain insertion order
+Map does not allow duplicate Keys but we can insert duplicate Values
+Map allows only 1 Null Key but when we try to insert another Null Key it will replace Value of previous Key
+Map does not allow duplicate Keys  but when we try to insert Same Key it will replace Value of previous Key
+
+
+Map interface methods
+blog go through
+Object class methods =>
+Contract between equals() and hashCode() method
+
+The basic rule of the contract states that if two objects are equal to each other based on equals() method,
+then the hash code must be the same, but if the hash code is the same, then equals() can return false.
+
+ put(K,V) => hash(K.hashCode()) => int value return => indexFor(hash, table.length) => index in table array where we are
+ actually going to store that Key-Value Pair
+
+
+Key duplicate => replace Value
+Key different but we got same hashCode => Hash collision
+Key different and we got different hashCode => No  Hash collision
+
+Map => HashMap, LinkedHashMap and TreeMap
+
+load factor => 0.75
+
+16 12 = resize the Map capacity
+
+Dam => water release => 100%   70-80% start releasing water
+
+class => roll number
+Alphabetic
+
+Akash    2
+Aniket   3
+Ashwini  4
+
+13 students  => Aarya  1
+
+16 students => 1 2 3
+
+
+32 students =>
+
+
+Student class => fname, lname, rollnumber
+
+Student => Obj1 =>
+map.put(obj1, "Test");  //hashCode => 1112222     table[5]
+
+obj1.setRollNumber(10001);  //hashCode 1113333
+
+map.get(obj1);  //table[7]
+
+if we modify the object, will it change the hashCode?  => Yes
+
+
+table[]  => load factor
+
+bucket => 8 records
+threshold = 64 => LL => Tree

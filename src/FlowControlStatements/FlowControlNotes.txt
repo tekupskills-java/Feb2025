@@ -1,0 +1,16 @@
+decision-making
+
+
+Green  => continue driving
+Red    => stop driving
+
+
+Flow Control statements
+1) If
+2) If-else
+3) Nested If
+4) If-else-if
+5) switch cases
+
+
+

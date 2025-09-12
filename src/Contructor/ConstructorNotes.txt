@@ -1,0 +1,75 @@
+What is Constructor in Java?
+It is special type of method used for initializing an Object af a class.
+
+Whenever we create an object of a class, it will occupy some heap memory.
+Object creation happens at runtime.
+We do not need to call Constructor explicitly, it will get called automatically when we create an Object of a class.
+Constructor assigns default values to the variables of a class.
+JVM by default provides you constructor in class even if you do  not write any in class.
+When developer writes a Parameterized Constructor then JVM will not provide you no-arg constructor in class.
+
+Types of Constructor
+1) Parameterized
+2) No-argument Constructor
+
+
+Constructor Chaining
+
+
+1) First line in any Constructor is a call to Super/Parent class default Constructor.
+JVM will add this line if Developer does not add it.
+
+2)
+
+super  => super or parent class
+this   => same or current class
+
+
+Difference between no-argument Constructor and default constructor in Java?
+
+What happens during compile and runtime?
+
+source code => byte code  => machine code
+
+Java memory
+1) Heap
+2) Stack
+
+When we click a photo?
+it will occupy some space/memory in your mobile
+
+Why we need Constructor in Java?
+To initialize an Object of class and initialize variables of class with default value
+
+What is meaning initializing an Object af a class?
+
+
+Default values for each primitive data type?
+
+
+Difference between Constructor and Method?
+=> Name of a Constructor and class must be same. Method name can be from class name.
+=> Methods have return types, and we don't need return type for Constructor.
+
+What is casting in Java?
+we convert object of 1 type into another type
+
+In how many different ways we can create an Object in Java?
+Why Java does not support Down casting?
+Why we need casting in Java?
+
+
+Types of casting
+1) Up casting or implicit casting
+2) Down casting or explicit casting
+
+Imp: Down casting will work at compile time but it will fail at runtime.
+     It will give you ClassCastException.
+
+casting is for Objects
+
+narrowing and widening => primitive data types
+
+property => Parent => Child
+
+        Child  => Parent

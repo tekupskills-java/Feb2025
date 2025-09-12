@@ -1,0 +1,35 @@
+Java 8 features
+1) Functional Interface or Single Abstract Method interface
+2) Lambda expression
+3) Stream APIs
+4) Method reference
+5) Optional class
+6) Date APIs
+
+
+
+Employee => 1 - 1000 ids
+
+select * from Employee where id = 1001; => null
+
+String s = null;
+String s1 = "";
+
+ResultSet => DataSet => Object  => ops  => NPE
+
+C => Create
+R => Retrieval
+U => Update
+D => Delete
+
+Coding standards => Exceptions  => SonarQube (Static code analysis => Sonar Violations )
+
+Critical
+Major
+Minor
+Info
+
+Jenkins => Stages
+
+Git
+Maven

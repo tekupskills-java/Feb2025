@@ -1,0 +1,160 @@
+Wrapper classes?
+
+In Collection frameworks, we deal with Objects only.
+
+Yes
+Which collection classes you have used in your application?
+Why you used those classes in your application?
+
+Is Java 100% Object oriented?
+
+What is Collection framework?
+It's a collection of Classes and Interfaces.
+We can store and perform different operations like add,remove and iterations on Objects using these classes.
+
+Collection hierarchy?
+
+Generics?
+
+List => ArrayList, LinkedList and Vector
+
+Set => HashSet
+
+Design principle => Coding to Interface
+
+Array
+Contains homogeneous elements
+Size is fix
+
+Collection is heterogeneous
+Size is dynamic
+
+
+List vs Set
+
+Types of iterators?
+
+A) Internal vs External iterators
+
+B) Fail Safe vs Fail Fast iterators
+
+Sorting => Comparable and Comparator
+
+Map => Internal working of HashMap
+
+ConcurrentHashMap
+
+Types of Collections
+1) Fail Safe
+2) Fail fast
+
+
+Why?
+Primitive data types  int => Integer
+static
+
+int a = 10;
+Object[] objArray = {a};
+
+What are Generics in Java?
+
+Why we need them?
+
+
+features of List
+1) It allows duplicate elements
+2) It maintains the insertion order
+3) allows multiple null values
+
+List => ArrayList, LinkedList and Vector
+ArrayList => Dynamic array  => array
+LinkedList  => Node (doubly)
+
+
+
+Iteration                      ArrayList (RandomAccess + Array )
+Modification => add/delete     LinkedList ()
+
+Marker interface or Empty interface
+The interface which does not contain any method are called as Marker interface
+
+JVM provides some special behaviour or treatment
+
+
+OCJP  =>
+
+
+
+RandomAccess
+Cloneable      =>
+Serializable  Object => Byte stream
+Remote
+
+Types of iterators
+1) Fail safe vs Fail-fast iterators
+
+During iteration process when we try to modify the collection,
+ we get CME so those iterators are called as Fail-fast iterators.
+
+2) Internal vs external iterators  => Stream APIs (internal iterators)
+
+
+A) Fail safe vs Fail-fast Collections
+
+hashCode()
+equals()
+contract between hashCode() and equals()
+
+
+Internal working of HashMap => HashSet
+
+The element we are trying to add in HashSet will become Key for HashMap we are using internally.
+
+We can not insert duplicate elements in Set.
+Set does not maintain insertion order.
+
+
+Comparable vs Comparator
+ConcurrentHashMap
+
+Comparable => we must modify the class
+Comparator => you don't need to modify the class
+
+
+project => Utils/common
+
+Utility classes => static methods =>
+
+40 places
+code duplicate
+
+
+Collections  => Utility class => static methods
+Collection  => interface
+
+
+calculateInterest() => PL  HL  VL   EL
+        123 1231 5433
+        *** **** 5433
+maskAccount() => **** **** **** 1234
+masking
+
+Email id => alpha numerics @  alpha numerics.characters
+
+saur$asas@a%$$$.com
+
+mobile => 10 digits  US mobile
+12331231233
+
+regular expression => regex
+
+Pattern
+Matcher
+
+
+FI
+Lambda
+Streams (Collectors)
+MR
+Optional
+

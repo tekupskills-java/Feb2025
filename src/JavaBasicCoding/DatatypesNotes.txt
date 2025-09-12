@@ -1,0 +1,44 @@
+Types of Data types
+
+1) Primitive
+-
+Memory Management
+Help allocate correct amount of memory
+
+Used for storing single value
+We can not create an Object of primitive data types.
+
+byte  -128 to 127
+
+short
+
+int
+
+float
+
+long
+
+double
+
+char
+
+boolean
+
+Widening    => smaller data type converts into larger data types
+narrowing  => larger data types converts into smaller data types (not recommended because it might cause data loss)
+
+byte   =>  short  => int => long => float => double
+
+1 litre => 2 litre => 3 litre => 4 litre => 5 litre => 6 litre
+
+2 litre => 1 litre wastage of water
+
+currency
+mobile number   double
+int/double
+
+2) Non-Primitive
+   A) Inbuilt  => String, Array,
+   B) User defined
+
+

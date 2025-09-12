@@ -1,0 +1,68 @@
+
+
+
+1) Car => puncture   => recoverable?  Yes    => Exception
+2) Car => major accident => recoverable?  No   => it is not recommended   => Error
+
+
+Exception
+1) Checked or Compile time exceptions
+2) Unchecked or Runtime exceptions
+
+Exception Handling
+What is Exception handling and why it is required?
+
+exception trace stack
+
+
+reflection apis   => 1 of the most powerful feature
+
+
+Types
+1) try-catch
+2) finally
+3) throw or throws
+
+handle that exception
+let others know that if you are calling that method they might get the exception
+
+try block  => the code which might cause an exception should go into try block
+
+catch => we write code to handle the exception caused by try block
+
+Exception whether it is Checked or unchecked, it will occur at runtime only.
+
+When Compiler forces developer to handle the exception at Compile time,
+it is called as Checked or Compile time exception.
+
+Case 1) Just display error
+Case 2) Display error message with the description of why we are getting that error
+
+when we are using multiple catch blocks we need to follow a rule i.e. first we should write catch blocks for sub-classes and then
+it's parent classes.  Child to Parent hierarchy
+
+what if my try block might throw 10 different exceptions?
+
+We want to execute some code whether exception occurs or not?
+
+
+
+Stack  => method stack
+
+divide  => 2 parameters
+
+
+try => catch
+try => finally
+try => catch => finally
+
+try with resources  => 1.7
+pipe => 1.7
+
+
+sonarqube sonarlint
+
+
+
+prepaid => 200 => 200 Rs  =
+

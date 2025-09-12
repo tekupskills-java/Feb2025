@@ -1,0 +1,28 @@
+What is Method overloading?
+When we have same method name but different parameters in the same class.
+
+
+Why should we use it?
+
+Objects behave differently?
+
+What is method signature?
+
+
+    public void test(int a, String s){
+
+    }
+
+Why method overloading is also called as Compile-time polymorphism?
+
+
+1) Same Method Name: Methods must have the same name.
+2) Different Parameter Lists: Methods must have different parameter lists, differing in:
+        Number of parameters: Different quantities of parameters.
+        Types of parameters: Parameters of varying data types.
+        Order of parameters: Sequence of data types of parameters differing.
+3) Occurs within the same class: Method overloading must occur within the same class.
+
+4) Return Type: The return type can be the same or different. Changing only the return type is not sufficient for overloading.
+5) Access Modifiers: Methods can have different access modifiers (e.g., public, private, protected).
+

@@ -1,0 +1,42 @@
+What is functional interface in Java?
+The interface which contains only 1 abstract method is called as Functional interface.
+
+SAM => Single Abstract Method interface
+
+1 interface AAA which contains 2 abstract methods
+
+let's add 1 more method in interface AAA
+
+100 classes which implements AAA
+
+I want to add new method in interface AAA but without having any impact on 100 implementation classes
+
+
+1) default method
+2) static method
+
+Lambda expression
+
+backward compatibility  =>
+
+mobile OS updates => 13 => 14  changelog
+version 14 => new features and bugs
+
+
+
+existing features they should keep working as they were working before
+you will few new features
+
+
+abstract class vs interface after Java 8
+
+Functional interfaces provided by Java
+1) Comparator => compare()
+2) Comparable => compareTo()
+3) Runnable  => run()
+4) Consumer  => accept()
+5) Callable  => call()
+6) Predicate => test()
+7) Function => apply()
+8) Supplier => get()
+

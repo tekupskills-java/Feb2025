@@ -1,0 +1,76 @@
+What is static in Java?
+non access modifier and keyword
+whatever static it belongs to the whole class and not to any specific object.
+only 1 copy of static is available to the all objects of that class.
+
+Object is not required to access static variables.
+Whatever which is static will get loaded into memory when we are loading the class(.class file).
+
+Why we need static in Java?
+for better memory management we use static.
+
+Why we have main() method as static method?
+
+Types of Variables
+1) Instance    => Variable declared at class level
+2) Static
+3) Local    => if we declare a variable inside method is called as Local variable.
+
+
+Constructor provides default values to Instance variables.
+JVM provides default values to static variables.
+Local variables does not get any default value, you must assign some value before you use it.
+
+
+Each Object will get a separate copy of instance variables.
+
+All objects of a class share same copy of static variable.
+
+SBI Bank  => application
+SBH  SBK
+//
+23 years  =>
+
+class BankAccount {
+//2-4 variables => static
+    String accHolderName;   //Instance
+    String bankName;        //static
+    String IFSCCode;        //instance
+    long accountNumber;    //static
+    String accountType;   //
+    double accountBalance; //
+
+}
+
+
+class College {
+
+    String stuName;
+    int id;
+    String department;
+    String collegeName;
+    String universityName;   //static
+
+}
+
+.class =>
+
+10000 .class files  =>
+
+compiler              .java => .class
+decompiler            .class => .java
+
+3 brothers
+
+light bill pay =>
+
+StaticExample.class   => App  => Ext  => Bootstrap
+
+Suresh  ======> Ramesh    =============> Nilesh
+
+Nilesh
+
+.jar   Java archive
+.war   Web archive
+.ear   Enterprise archive
+

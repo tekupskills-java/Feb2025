@@ -1,0 +1,17 @@
+
+What is Polymorphism?
+Using 1 thing in many forms.
+
+
+Why we need Polymorphism?
+
+
+
+How do we achieve Polymorphism?
+A) Compile time or static binding or Method Overloading
+B) Runtime or dynamic binding or Method Overriding
+
+
+Method Overloading                          vs    Method Overriding
+Same class                                  vs    Parent Child class
+parameter list must be different            vs    Parameter list must be same

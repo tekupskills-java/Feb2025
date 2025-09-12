@@ -1,0 +1,42 @@
+what is Thread in Java?
+=> small set of instructions given to CPU
+=> the smallest independent path of execution within a process.
+
+
+How to create Thread in Java?
+1) extends Thread class
+2) implements Runnable interface
+
+Why we got 2 ways for creating a Thread in Java?
+or difference between 2 ways?
+
+When a class extends Thread class it becomes instanceof Thread class directly.
+
+When class implements a Runnable interface it becomes instanceof Runnable and we need to pass that instance/obj to
+Thread class constructor then we get a Thread.
+
+Thread life cycle
+
+Gpay  => 1 Cr 10 AM
+         0 10 AM
+
+What is synchronization and why should we use it?
+We allow only 1 thread to access the code and other Threads will wait
+until that Thread completes the execution for the same resource.
+
+Railway station  => 1 ticket counter  10 persons Person1  Person2 Person10
+                 => 10 counter   10 persons
+
+synchronize
+
+multi threading => data issue
+
+read ops  => select * from Employee;
+write ops => insert into
+
+ int add(int a, int b){
+
+    return a + b;
+ }
+
+ 10,20  => 30   40 -10

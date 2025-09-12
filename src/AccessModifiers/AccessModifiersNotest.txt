@@ -1,0 +1,55 @@
+What are Access modifiers?
+In Java, access modifiers control the visibility and accessibility of classes, methods, and variables.
+
+Notes: First check at class level, method/variable level and then check package.
+
+Types of Access modifiers?
+1) private => whatever private is accessible only within same class
+2) public
+3) protected
+4) default(no need to specify it)//whenever we do not provide any access modifier
+                                    //it means we are using default access  modifier
+
+Relationship
+1) IS-A
+2) HAS-A
+
+IS-A relationship is achieved using Inheritance.
+HAS-A relationship is based upon Usage.
+
+When we have 2 classes which does not share any parent/child relationship, then we can create object of 1 class in
+another class and using that object we can access methods/variables of that class.
+
+Note: When we are using 1 public class in another package we must first import that class.
+Note: We must know which access modifier is used for class/variables/methods
+
+class => public and default
+methods =>
+variables =>
+
+Nexon IS-A Car(Child class IS-A Parent)
+
+Car HAS-A Engine.
+
+
+class Car {
+   applyBreak(){}
+   psvm(){
+     Engine engine = new Engine();
+     engine.startEngine();
+   }
+}
+
+class Nexon extends Car {
+
+}
+
+class Engine{
+    startEngine(){}
+}
+
+Same package subclass       =>  IS-A
+Same package non-subclass   =>  HAS-A
+
+
+

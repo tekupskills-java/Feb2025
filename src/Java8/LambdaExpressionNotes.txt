@@ -1,0 +1,13 @@
+
+What is lambda expression?
+
+
+Account  =>
+9:49 => 2 Crore    DB
+9:51 => 50 lakh
+
+
+List<Employee>
+
+
+Optional<List<Employee>>

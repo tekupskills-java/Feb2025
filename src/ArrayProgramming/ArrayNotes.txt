@@ -1,0 +1,30 @@
+
+What is Array?
+Collection of similar data types where we store them in continues memory location.
+we can store multiple values in single variable.
+
+
+Why we use Array?
+
+
+
+int[] arr = {1,4,5,4,6,11,77,8,9,10,44, 78, 77, 44};
+
+
+int[] dummyArr = {3,7,6,1,5,8,5,8,9,2,7,9,4,7};
+//7  3
+//5  2
+//8  2
+//9  2
+
+//4 77 44
+
+//1 78
+
+String s = "Java is programming is language Java just completed 30 is years";
+//Java 2
+//is 3
+
+
+
+//

@@ -1,0 +1,16 @@
+
+What are blocks in Java?
+
+
+Why we need them?
+
+
+
+Types of blocks in Java?
+
+
+I want to execute some code before main() methods starts execution.
+
+
+I want to execute some code once we create an object of a class
+but before Constructor gets called.

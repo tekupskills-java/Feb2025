@@ -1,0 +1,165 @@
+
+JAVA_HOME => Setup?   Java 11 or Java 17
+Intellij => Setup
+
+
+Features revisit
+Java language history
+
+What is it?
+Why should we use it?
+How to use it?
+
+
+Anda Murgi
+
+class
+What is class in Java?
+=> Collection of objects
+=> Collection of methods and/or variables
+=> blueprint of objects
+
+How to create a class in Java?
+
+what is blueprint?
+
+scholarship  form  =>
+
+object
+What is Object in Java?
+Real world entity which is having functionality and properties
+Is a instance of a class.
+Reference of a class.
+
+Why we need Object in Java?
+To access variables and methods inside a class, we need object of that class.
+
+
+method or function or action or behaviour
+What are methods in Java?
+=> Block of code for perform specific tasks
+=> Set of instructions
+=>
+
+withdraw money from ATM   =>
+you perform series of steps to achieve the task.
+
+Go to ATM
+Insert ATM
+Enter PIN
+Enter Amount
+Collect Amount
+Collect Card
+
+eat =>
+take a plate and bowl
+put food inside plate/bowl
+seat down
+take a bite
+chew that bite
+put that plate in kitchen for cleaning or clean the plate
+
+
+Why we need methods in Java?
+
+
+
+variable or data members or attributes or properties
+Why we need variables in Java?
+For Storing data.
+So that we can create multiple unique Objects of same class.
+
+
+datatype
+
+What are data types in Java?
+Different kind of value it is going to store.
+Specify the type of value we are storing.
+
+Why we need them?
+
+
+Types of data types
+1) primitive
+    byte short int float long double char boolean
+
+2) Non-primitive
+    Array String Class Interface Enum
+    A) In built => Provided by Java
+    B) User defined data types
+
+keywords
+What are keywords in Java?
+Reserved word to Java, which has a predefined meaning.
+
+Why we need Keywords in Java?
+
+
+List of all keywords in Java?
+
+
+
+identifiers
+What are identifiers in Java?
+In Java, an identifier is a name given to a variable, method, class, package, or interface.
+Identifiers are used to uniquely identify each element in the code.
+
+
+compiler
+
+
+interpreter
+
+package
+What is Package in Java?
+We use package in java to group together classes with similar functionality
+
+
+operators
+
+
+access modifiers
+
+
+syntax
+
+Compiler => it checks whether you are following programming rules or not
+
+
+Traffic rules   =>
+Traffic police  =>
+
+
+1/2 BHK
+
+hall
+kitchen
+bedroom
+
+
+college  => departments
+college = 10000
+department name = 1000
+year = 200
+division = 50
+
+
+college 50
+10 department
+
+create a class => 10 100
+15000   =>
+
+Person
+Features or attributes or properties or variables  => name, mobile number, aadhar card, pan card, age, address etc
+140 crore
+Indian  =>
+
+actions or methods => walk, talk, eat, sleep, drive, tell me your complete name with address
+
+
+
+
+
+
+

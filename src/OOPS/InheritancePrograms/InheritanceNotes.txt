@@ -1,0 +1,39 @@
+What is Inheritance?
+=> extending Parent class properties and/or methods to Child class.
+=> 1 class inherits or acquires properties and/or methods of another class.
+
+Why we need inheritance?
+We can avoid code duplication or we can reuse existing code.
+
+How do we achieve Inheritance?
+By using extends keyword we achieve inheritance.
+
+class A =>  2 methods 3 variables
+class B
+
+10 Acre  => Parent break Child
+inherit?
+
+grocery => 10 kg sugar => 5 kg   duplication
+
+Types of Inheritance
+1) Single        10 programs
+2) Multi level   5 programs
+3) Multiple      => Java does not support Multiple inheritance
+4) Hierarchical   5 programs
+5) Hybrid    => Combination of more than 1 type of inheritance    5 programs
+
+What is multiple inheritance and why Java does not support it?
+
+What is diamond problem in Java?
+
+Single inheritance
+1 Parent class 1 child class
+
+Multi level
+Grant Parent(5) => Parent(+2) => Child(+3) =>  Grand Child
+
+
+
+
+
