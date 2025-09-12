@@ -26,13 +26,13 @@ public class WhyStreams {
         list.add("DEF");
 
         //collection print all elements whose length is more than or equal to 5 or start with char A
-       /* for(String element : list){
+        for(String element : list){
 
             if(element.length() >= 5 || element.startsWith("A")){
                 System.out.println("Elements with length more than 5 are "+element.toLowerCase());
             }
 
-        }*/
+        }
 
 
         //a source, one or more intermediate operations and a terminal operation
@@ -65,7 +65,7 @@ public class WhyStreams {
                 limit(5).
                 forEach(element -> System.out.println("Elements with length more than 5 are "+element));
 
-     /*  List<Integer> listOfInt = IntStream.of(new int[] {4, 7, 1, 8, 3, 9, 7, 9, 10, 11, 20, 15, 15, 25}).
+    /*   List<Integer> listOfInt = IntStream.of(new int[] {4, 7, 1, 8, 3, 9, 7, 9, 10, 11, 20, 15, 15, 25}).
                 filter((int i) -> i > 5).
                 distinct().
                 sorted().collect(Collectors.toList());*/
@@ -94,8 +94,5 @@ public class WhyStreams {
         return result;
     }
 
-    void printAllElement(){
-
-    }
 
 }

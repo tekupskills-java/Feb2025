@@ -11,3 +11,17 @@ List<Employee>
 
 
 Optional<List<Employee>>
+
+
+local machine
+
+Dev
+
+QA
+
+UAT/SIT/CERT
+
+
+Production
+
+

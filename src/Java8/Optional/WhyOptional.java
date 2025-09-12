@@ -27,9 +27,7 @@ public class WhyOptional {
         // lets suppose that our database contain only 2 students ahmed and hamza .
         if (name.equals("hamza") || name.equals("ahmed")) {
             return Optional.of(new Student(name, 22, "Morocco"));
-        } /*else {
-            return null;
-        }*/
+        }
         return Optional.empty();
     }
 }
