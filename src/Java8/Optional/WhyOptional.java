@@ -6,13 +6,13 @@ public class WhyOptional {
 
     public static void main(String[] args) {
 
-       /* Student Student = getStudentWithName("bharat");
+        Student Student = new Student("Java", 30, "Spring");
 
         if (Student != null) {
             System.out.println(Student.getName());
         } else {
             System.out.println("no Student with the given name ");
-        }*/
+        }
 
         Optional<Student> student = Optional.ofNullable(getStudentWithName("bharat").orElse(new Student("no one", 0, "Unknown")));
         if (student.isPresent()) {
